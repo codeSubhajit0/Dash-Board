@@ -6,12 +6,11 @@ import { useState } from 'react';
 
 const MainLayout = () => {
 
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-   const toggleSidebar = () => {
+   const toggleSidebar = () => {   
         setIsSidebarOpen( isSidebarOpen => !isSidebarOpen );
     }
-    setTimeout(()=>{setIsSidebarOpen(false)},4000);
 
   return (
         < div className="h-screen w-full bg-green-400">
