@@ -2,7 +2,8 @@
 const DashBoard = () => {
   return (
     <>
-      <div className="bg-red-400">DashBoard Page</div>
+      <div className="bg-blue-400 h-screen">DashBoard Page</div>
+      
     </>
   );
 };
